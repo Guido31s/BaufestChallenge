@@ -1,0 +1,177 @@
+[
+  {
+    "description": "    Ejercicio DemoBlaze que consiste en dar de alta un usuario, desloguearse. Luego elegir una laptop, añadirla al carrito y verificar que esté la misma",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "Ingresar a DemoBlaze",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Primero se ingresa a DemoBlaze",
+            "result": {
+              "duration": 2447000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "challenge-demoblaze;crear-usuario",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Crear usuario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "El usuario clickea en SignUp se crea una cuenta utilizando sus credenciales",
+            "result": {
+              "duration": 1162000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Luego clickea en LogIn e ingresa sus datos, y se verifica su nombre de usuario",
+            "result": {
+              "duration": 3251000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "Ingresar a DemoBlaze",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Primero se ingresa a DemoBlaze",
+            "result": {
+              "duration": 270000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "challenge-demoblaze;añadir-una-laptop-al-carrito",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Añadir una laptop al carrito",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "Se filtra Laptops, se selecciona \"MacBook air\", y se añade al carrito",
+            "result": {
+              "duration": 1850000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Se ingresa al carrito y se verifica que la \"MacBook air\" se haya añadido",
+            "result": {
+              "duration": 1777000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "Ingresar a DemoBlaze",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Primero se ingresa a DemoBlaze",
+            "result": {
+              "duration": 977000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "challenge-demoblaze;desloguear-de-la-cuenta",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Desloguear de la cuenta",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 14,
+            "name": "Se clickea LogIn, se ingresan los datos y luego se clickea LogOut",
+            "result": {
+              "duration": 3340000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Se valida que aparezca Log In",
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "challenge-demoblaze",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Challenge DemoBlaze",
+    "uri": "cypress\\e2e\\features\\demoBlazeTest.feature"
+  }
+]
