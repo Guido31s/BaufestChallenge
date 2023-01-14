@@ -1,5 +1,10 @@
+# Baufest DemoBlaze Challenge
 
-# Comandos:
+## Acerca de
+
+Este proyecto está implementado con Cypress, Cucumber y multiple-cucumber-html-reporter.
+
+## Comandos:
 
 Primero ejecutar el comando `npm install` para instalar las dependencias
 
@@ -7,7 +12,7 @@ Para abrir pruebas en Cypress: `npx cypress open` o `npm test`
 
 Para correr pruebas en la terminal: `npx cypress run` o `npm run file` 
 
-# Reports:
+## Reports:
 */**/reports/cucumber-htmlreport.html/index.html 
 
 ![image](https://user-images.githubusercontent.com/77993008/212497282-5b1f388c-ab26-45cd-b4d3-777942b3b184.png)
